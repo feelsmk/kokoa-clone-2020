@@ -1,0 +1,138 @@
+.need_notification-dot {
+  position: relative;
+}
+
+.notification-dot--cog {
+  position: absolute;
+  left: 25px;
+  bottom: 18px;
+}
+
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.find-icons__icon i {
+  font-size: 40px;
+}
+
+.find-icons__icon span {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.recommended-friends {
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.recommended-friends__title {
+  color: var(--subtitle-text-color);
+}
+
+.recommended-friends span {
+  margin: 110px 0;
+  display: block;
+  text-align: center;
+  color: var(--subtitle-text-color);
+  font-size: 18px;
+}
+
+.open-chat-header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--subtitle-text-color);
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.open-chat-header span {
+  opacity: 0.5;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.open-post__hashtags {
+  color: var(--subtitle-text-color);
+  font-size: 18px;
+}
+
+.open-post__members {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 28px;
+  height: 28px;
+  border-radius: 40%;
+  margin-right: 8px;
+}
+
+.open-post__member-count {
+  color: var(--subtitle-text-color);
+}
+
+.open-post__members .divider {
+  width: 1.5px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 8px;
+}
+
+.open-post__member-status {
+  color: tomato;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.open-post__heart-count {
+  background-color: var(--subtitle-text-color);
+  color: white;
+  font-weight: 300;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+
+.open-post__heart-count span {
+  padding-left: 5px;
+}
