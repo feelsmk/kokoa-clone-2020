@@ -102,3 +102,23 @@
 .open-post__heart-count span {
   padding-left: 5px;
 }
+
+@keyframes HeartBouncing {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.2);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: HeartBouncing 1s linear infinite;
+}

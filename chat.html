@@ -23,7 +23,7 @@
     </div>
 
     <header class="alt-header">
-      <div class="alt-header__column alt-header__column__for-chat">
+      <div class="alt-header__column ">
         <i class="fas fa-angle-left fa-2x" onclick="history.go(-1)"></i>
     </a>
       </div>
@@ -39,9 +39,48 @@
       
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen main-chat">
         
+      <div class="chat__timestamp">
+        Thursday, September 24, 2020
+      </div>
+
+      <div class="message-row">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Kakao_logo.jpg">
+        <div class="message-row__content">
+          <span class="message__author">KokoaTalk</span>
+          <div class="message__info">
+            <span class="message__bubble">Please check My Kokoa Account Info</span>
+            <span class="message__time">20:14</span>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="message-row message-row--own">
+          <div class="message__info">
+            <span class="message__bubble">Okay!</span>
+            <span class="message__time">20:15</span>
+          </div>
+        </div>
+      </div>
+
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+      <div class="reply__column"></div>
+    </form>
 
     
 
