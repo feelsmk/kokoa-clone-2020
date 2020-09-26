@@ -1,14 +1,15 @@
 .badge {
   background-color: tomato;
-  width: 26px;
-  height: 26px;
-  border-radius: 13px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
   display: block;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-weight: 400;
+  font-size: 14px;
 }
 
 .badge__new {
@@ -28,9 +29,9 @@
 
 .notification-dot {
   background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
 }
 
 .need_notification-dot {
